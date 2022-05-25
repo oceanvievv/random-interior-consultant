@@ -110,6 +110,8 @@ body {
   position: absolute;
   top: 22px;
   right: 20px;
+
+  cursor: pointer;
 }
 .header-mobile-nav__close-button-wrapper img {
   width: 100%;
@@ -168,6 +170,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  cursor: pointer;
 }
 .header-mobile__burger-wrapper img{
   width: 100%;
