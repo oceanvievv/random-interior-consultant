@@ -22,43 +22,89 @@
   <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;700&display=swap" rel="stylesheet">
 </head>
 <body>
+  <div class="header-mobile-fixed-wrapper">
+    <!-- Mobile Nav -->
+    <div class="header-mobile-nav">
+      <div class="header-mobile-nav-wrapper white-text">
+        <div class="header-mobile-nav__item-wrapper">
+          <div class="header-mobile-nav__item">
+            Home
+          </div>
+        </div>
+        <div class="header-mobile-nav__item-wrapper">
+          <div class="header-mobile-nav__item">
+            Collection
+          </div>
+        </div>
+        <div class="header-mobile-nav__item-wrapper">
+          <div class="header-mobile-nav__item">
+            About
+          </div>
+        </div>
+        <div class="header-mobile-nav__item-wrapper">
+          <div class="header-mobile-nav__item">
+            Contact
+          </div>
+        </div>
+      </div>
+      <div class="header-mobile-nav__close-button-wrapper">
+        <img src="icons/close.svg" alt="Close">
+      </div>
+    </div>
+  </div>
+
   <div class="container-wrapper">
     <div class="container">
-      <!-- Header -->
-      <div class="header-desktop-wrapper">
+      <!-- Header Mobile -->
+      <div class="header-mobile-wrapper">
         <!-- Logo -->
-        <div class="header-desktop__logo-wrapper">
-          <div class="header-desktop__logo">
+        <div class="header-mobile__logo-wrapper">
+          <div class="header-mobile__logo">
             <span class="white-text">This interior</span>
           </div>
         </div>
-    
-        <!-- Nav -->
-        <div class="header-desktop-nav">
-          <div class="header-desktop-nav-wrapper white-text">
-            <div class="header-desktop-nav__item-wrapper">
-              <div class="header-desktop-nav__item">
-                Home
-              </div>
+
+        <!-- Burger menu -->
+        <div class="header-mobile__burger-wrapper">
+          <img src="icons/burger-menu.svg" alt="Menu">
+        </div>
+      </div>
+      
+    <!-- Header Desktop-->
+    <div class="header-desktop-wrapper">
+      <!-- Logo -->
+      <div class="header-desktop__logo-wrapper">
+        <div class="header-desktop__logo">
+          <span class="white-text">This interior</span>
+        </div>
+      </div>
+  
+      <!-- Desktop Nav -->
+      <div class="header-desktop-nav">
+        <div class="header-desktop-nav-wrapper white-text">
+          <div class="header-desktop-nav__item-wrapper">
+            <div class="header-desktop-nav__item" data-text="Home">
+              Home
             </div>
-            <div class="header-desktop-nav__item-wrapper">
-              <div class="header-desktop-nav__item">
-                Collection
-              </div>
+          </div>
+          <div class="header-desktop-nav__item-wrapper">
+            <div class="header-desktop-nav__item" data-text="Collection">
+              Collection
             </div>
-            <div class="header-desktop-nav__item-wrapper">
-              <div class="header-desktop-nav__item">
-                About
-              </div>
+          </div>
+          <div class="header-desktop-nav__item-wrapper">
+            <div class="header-desktop-nav__item" data-text="About">
+              About
             </div>
-            <div class="header-desktop-nav__item-wrapper">
-              <div class="header-desktop-nav__item">
-                Contact
-              </div>
+          </div>
+          <div class="header-desktop-nav__item-wrapper">
+            <div class="header-desktop-nav__item" data-text="Contact">
+              Contact
             </div>
           </div>
         </div>
       </div>
+    </div>
 
       <!-- Promo section -->
       <div class="promo">
@@ -75,14 +121,46 @@
           </span>
           <div class="promo__button">
             <span>Read more</span>
-            <span>→</span>
+            <div class="icon-arrow-right">
+              <img src="icons/arrow-right.svg" alt="Arrow right">
+            </div>
           </div>
         </div>
         <div class="promo__example">
-
+          <img src="images/photo1.png" alt="Example preview">
+          <div class="promo__example-card">
+            <div class="promo__person-info">
+              <div class="promo__person-image-wrapper">
+                <img src="images/photo2.png" alt="Creator Photo">
+              </div>
+              <div class="promo__person-name-and-position">
+                <p class="promo__person-name">
+                  Aliza Webber
+                </p>
+                <p class="promo__person-position">
+                  Interior designer
+                </p>
+              </div>
+            </div>
+            <div class="promo__example-descr">
+              <p>
+                Designed in 2020 by <br>
+                Aliza Webber
+              </p>
+            </div>
+          </div>
         </div>
+      </div>
+
+      <!-- Copyright -->
+      <div class="copyright">
+        <p class="copyright__text">
+          created by <span>oceanvievv</span> - KQsquad
+        </p>
       </div>
     </div>
   </div>
 </body>
 </html>
+
+
