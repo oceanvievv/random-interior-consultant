@@ -294,7 +294,7 @@ body {
   font-size: 18px;
   line-height: 22px;
 
-  width: fit-content;
+  width: 110px;
   height: 24px;
 
   display: flex;
@@ -559,8 +559,6 @@ body {
     line-height: 17px;
   }
   .promo__button {
-    width: fit-content;
-
     font-size: 14px;
     line-height: 17px;
   }
