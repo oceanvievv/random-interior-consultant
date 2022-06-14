@@ -559,6 +559,8 @@ body {
     line-height: 17px;
   }
   .promo__button {
+    width: fit-content;
+
     font-size: 14px;
     line-height: 17px;
   }
